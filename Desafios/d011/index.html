@@ -4,21 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Astronauta no Espaço</title>
     <style>
-        body {
-            background-image: url(images/espaco.jpg);
-            text-align: center;
+        body{
+            height: 100vh;
+            margin: 0;
         }
 
-        img {
-            margin: 20%;
+        div{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            background-image: url(images/espaco.jpg);
+            background-size: cover;
+        }
+
+        img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 
 <body>
-    <img src="images/astronauta.png" alt="">
+    <div>
+        <img src="images/astronauta.png" alt="">
+    </div>
 </body>
 
 </html>
