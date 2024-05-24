@@ -52,7 +52,7 @@ pre{
 div#flor{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    width: 100%;
+    background-attachment: fixed;
 }
 
 div#flor>pre{
@@ -64,7 +64,7 @@ div#flor>pre{
 div#livro{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-    width: 100%;
+    background-attachment: fixed;
 }
 
 div#livro>pre{
