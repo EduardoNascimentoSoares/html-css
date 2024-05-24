@@ -53,23 +53,27 @@ div#flor{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
+    height: 400px;
 }
 
 div#flor>pre{
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
     padding: 10px;
+    width: 400px;
 }
 
 div#livro{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    height: 400px;
 }
 
 div#livro>pre{
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
+    width: 400px;
 }
 
 footer{
